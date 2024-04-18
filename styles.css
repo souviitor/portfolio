@@ -1,0 +1,173 @@
+@media screen and (max-width: 1920px) {
+    .imagem {
+        width: 400px;
+        border-radius: 400px;
+        border: 2px solid #8245f4;
+    }
+}
+
+@media screen and (max-width: 932px) {
+    .imagem {
+        min-width: 5px;
+        max-width: 40vh;
+        width: 350px;
+        border: 2px solid #8245f4;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+    background-color: #a0a0a0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+/* seletor da navbar */
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    background-color: #cfcfcf;
+    font-size: 1.2em;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: #261a1a;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+.link-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+}
+
+
+.link-project a{
+    text-decoration: none;
+    color: #1b122b;
+    font-size: 23px;
+}
+
+#navbar a:hover{
+    background-image: linear-gradient(62deg, #323e4a 0%, #453b4f 100%);
+    color: #fff;
+    transition: 1s ease-out;
+    margin: 0;
+}
+
+/* Seção de boas-vindas */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #323e4a 0%, #453b4f 100%);
+}
+
+#welcome-section h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+}
+
+#welcome-section p,
+#contacts p {
+    font-size: 1.5rem;
+    color: #8245f4;
+    font-style:italic;
+    padding-bottom: 10px;
+}
+
+/* Seção de projetos realizados */
+#projects{
+    background-color: #436587;
+    width: 100%;
+    height: 92vh;
+    display: grid;
+}
+
+#projects h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+
+
+/* Seção de meios de contato */
+#contacts .link-contacts ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 4rem;
+    padding-top: 20px;
+}
+
+#contacts{
+    background-color: #303841;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts h2, p {
+    padding-top: 10px;
+}
+
+.link-contacts {
+    padding-top: 30px;
+}
+
+#contacts h2 {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    align-items: center;
+    text-align: center;
+}
+
+#contacts p {
+    font-size: 1.8rem;
+    color: #8245f4;
+    font-style:italic;
+}
+
+.link-contacts img {
+    border-radius: 30px;
+    background-color: #8245f4;
+}
+
+/* Rodapé */
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    text-align: center;
+    background: var(--main-gray, #cfcfcf);
+    background-image: linear-gradient(62deg, #323e4a 0%, #453b4f 100%);
+}
