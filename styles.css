@@ -6,7 +6,7 @@
     }
 }
 
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 676px) {
     .imagem {
         min-width: 5px;
         max-width: 40vh;
