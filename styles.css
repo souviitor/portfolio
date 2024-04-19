@@ -15,12 +15,8 @@
   }
 
   #navbar a {
-    position: none;
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
     font-size: 0.8em;
-    margin-right: 3px;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -48,11 +44,11 @@ body {
   padding: 0;
   background-color: #cfcfcf;
   font-size: 1.2em;
-  position: sticky;
-  top: 0;
 }
 
 #navbar a {
+  position: sticky;
+  top: 0;
   display: block;
   text-decoration: none;
   color: #261a1a;
