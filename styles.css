@@ -52,6 +52,16 @@ body {
   margin: 0 auto;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* seletor da navbar */
 menu ul {
   width: 100%;
@@ -86,6 +96,13 @@ menu a {
   text-decoration: none;
   color: #1b122b;
   font-size: 23px;
+}
+
+.link-project i {
+  font-size: 400px;
+  display: block;
+  position: relative;
+  bottom: 100px;
 }
 
 menu a:hover {
@@ -170,7 +187,7 @@ i#burguer {
   align-items: center;
 }
 
-#contacts  h2,
+#contacts h2,
 p {
   padding-top: 10px;
   justify-content: center;
