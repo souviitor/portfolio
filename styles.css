@@ -16,6 +16,7 @@
 
   menu a {
     font-size: 0.7em;
+    width: 100%;
   }
 
   menu {
@@ -25,6 +26,8 @@
 
   i#burguer.ri-menu-line{
     display: flex;
+    padding: 0;
+    padding-right: 30px;
   }
 }
 
