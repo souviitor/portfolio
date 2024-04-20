@@ -20,11 +20,11 @@
   }
 
   menu {
-    display: none;
-    background-color: red;
+    position: none;
+    transition: all .55s ease;
   }
 
-  i#burguer.ri-menu-line{
+  i#burguer.ri-menu-line {
     display: flex;
     padding: 0;
     padding-right: 30px;
@@ -36,6 +36,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+menu a,
+#welcome-section h1,
+#projects h2,
+#contacts h2 {
+  font-family: "Cinzel", serif;
 }
 
 body {
@@ -67,7 +74,6 @@ menu a {
   color: #261a1a;
   text-align: center;
   padding: 15px;
-  font-family: "Cinzel", serif;
 }
 
 .link-project {
@@ -90,7 +96,7 @@ menu a:hover {
   margin: 0;
 }
 
-i#burguer{
+i#burguer {
   font-size: 30px;
   font-weight: bold;
   display: flex;
@@ -119,7 +125,6 @@ i#burguer{
   font-weight: 700;
   text-align: center;
   font-size: 3rem;
-  font-family: "Cinzel", serif;
 }
 
 #welcome-section p,
@@ -143,7 +148,6 @@ i#burguer{
   justify-content: center;
   align-items: center;
   padding: 10rem 2rem;
-  font-family: "Cinzel", serif;
   font-size: 2rem;
   flex-wrap: wrap;
 }
@@ -167,9 +171,10 @@ i#burguer{
   align-items: center;
 }
 
-#contacts h2,
+#contacts  h2,
 p {
   padding-top: 10px;
+  justify-content: center;
 }
 
 .link-contacts {
@@ -178,7 +183,6 @@ p {
 
 #contacts h2 {
   font-size: 2.5rem;
-  font-family: "Cinzel", serif;
   align-items: center;
   text-align: center;
 }
@@ -189,9 +193,19 @@ p {
   font-style: italic;
 }
 
-.link-contacts img {
-  border-radius: 30px;
-  background-color: #8245f4;
+.text {
+  text-align: center;
+}
+
+.icones {
+  font-size: 55px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.icones:hover {
+  transition: all 0.55s ease-out;
+  color: #8245f4;
 }
 
 /* Rodapé */
