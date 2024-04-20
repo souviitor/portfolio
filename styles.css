@@ -19,9 +19,8 @@
     width: 100%;
   }
 
-  menu {
-    position: none;
-    transition: all .55s ease;
+  menu#itens {
+    display: none;
   }
 
   i#burguer.ri-menu-line {
