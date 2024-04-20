@@ -17,5 +17,6 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.lista', { delay: 200, origin: 'left' });
-sr.reveal('.text', { delay: 200, origin: 'top' });
+sr.reveal('.text', { delay: 300, origin: 'top' });
 sr.reveal('.imagem', { delay: 200, origin: 'top' });
+sr.reveal('.ri-folder-info-fill', { delay: 300, origin: 'top' });
