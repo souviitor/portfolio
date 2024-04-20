@@ -12,15 +12,25 @@
     />
     <link rel="shortcut icon" href="vitor-ia.jpeg" />
     <title>Portifólio Vitor</title>
+
+    <!-- ICONE -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- NAV BAR -->
-    <nav id="navbar">
-      <a href="#welcome-section">Inicio</a>
-      <a href="./Vitor Souza .pdf" target="_blank">Curriculo</a>
-      <a href="#projects">Projetos</a>
-      <a href="#contacts">Contato</a>
-    </nav>
+    <header>
+      <i id="burguer" class="ri-menu-line" onclick="clickMenu()"></i>
+      <menu id="itens">
+        <ul>
+          <li><a href="#welcome-section">Início</a></li>
+          <li><a href="./Vitor Souza .pdf" target="_blank">Curriculo</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contacts">Contato</a></li>
+        </ul>
+      </menu>
+    </header>
 
     <!-- section de boas-vindas -->
     <section id="welcome-section">
@@ -72,4 +82,5 @@
       <p>2023&copy; Criado por Vitor Souza! 🤙🏼</p>
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
