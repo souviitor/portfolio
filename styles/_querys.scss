@@ -28,6 +28,18 @@
     padding: 0;
     padding-right: 30px;
   }
+
+  #contacts h2 {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    flex-wrap: wrap;
+
+    p {
+      margin-top: 10px;
+    }
+  }
 }
 
 i#burguer {
