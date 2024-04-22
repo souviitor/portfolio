@@ -1,0 +1,10 @@
+.icones {
+  font-size: 55px;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.55s ease-out;
+    color: #8245f4;
+  }
+}

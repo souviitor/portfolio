@@ -1,0 +1,44 @@
+@media screen and (max-width: 1920px) {
+  .imagem {
+    width: 400px;
+    border-radius: 400px;
+    border: 2px solid #8245f4;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .imagem {
+    min-width: 5px;
+    max-width: 40vh;
+    width: 350px;
+    border: 2px solid #8245f4;
+  }
+
+  menu a {
+    font-size: 0.7em;
+    width: 100%;
+  }
+
+  menu#itens {
+    display: none;
+  }
+
+  i#burguer.ri-menu-line {
+    display: flex;
+    padding: 0;
+    padding-right: 30px;
+  }
+}
+
+i#burguer {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(62deg, #323e4a 0%, #453b4f 100%);
+  display: none;
+}
